@@ -14,5 +14,7 @@
     "mineflayer": "^2.37.1",
     "mineflayer-blockfinder": "0.0.7",
     "mineflayer-cmd": "^1.0.2"
+    "bin" : {
+    "execute" : "index.js"
   }
 }
