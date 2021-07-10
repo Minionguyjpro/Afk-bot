@@ -1,3 +1,4 @@
+[![Bot Test](https://github.com/Minionguyjpro/Afk-bot/actions/workflows/run.yml/badge.svg)](https://github.com/Minionguyjpro/Afk-bot/actions/workflows/run.yml)
 # Afk-bot
 An bot to stay AFK.
 # All features
