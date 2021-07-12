@@ -1,4 +1,4 @@
-[![Bot Test](https://github.com/Minionguyjpro/Afk-bot/actions/workflows/run.yml/badge.svg)](https://github.com/Minionguyjpro/Afk-bot/actions/workflows/run.yml)![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/minionguyjpro/afk-bot/master)
+[![Bot Test](https://github.com/Minionguyjpro/Afk-bot/actions/workflows/run.yml/badge.svg)](https://github.com/Minionguyjpro/Afk-bot/actions/workflows/run.yml) ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/minionguyjpro/afk-bot/master)
 # Afk-bot
 An bot to stay AFK.
 # All features
