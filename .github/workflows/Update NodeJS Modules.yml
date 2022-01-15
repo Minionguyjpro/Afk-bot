@@ -1,8 +1,8 @@
 name: Update all NodeJS Modules
 
 on:
-  push:
-  pull_request:
+  schedule:
+    - cron: "*/5 * * * *"
   
 jobs:
  update_node_modules:
