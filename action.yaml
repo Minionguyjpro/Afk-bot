@@ -3,16 +3,25 @@ author: 'Minionguyjpro'
 branding:
   icon: 'box'
   color: 'blue'
-description: 'An Minecraft NodeJS bot to stay afk in servers.'
+description: 'An Minecraft NodeJS bot to stay AFK in servers.'
 
 inputs:
-  bot-enabled:
-    description: 'Enable the bot.'
-    required: false
-    default: ''
+  ip:
+   description: 'The IP of the Minecraft server.'
+   required: true
+   default: 'example.ip.org'
+  port:
+   description: 'The port of the Minecraft server.'
+   required: true
+   default: '25565'
+  name:
+   description: 'The username of the bot displayed in the Minecraft server.'
+  auto-night-skip:
+   description: 'Make's the bot automatically skip the night in the Minecraft server.'
+   required: false
     
 runs:
- using: 'node12'
+ using: 'node16'
  main: 'index.js'
 
 
