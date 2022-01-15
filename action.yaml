@@ -8,5 +8,5 @@ inputs:
   main: 'index.js'
 
 branding:
-  icon: 'bot'
-  color: 'lime'
+  icon: 'box'
+  color: 'blue'
