@@ -17,11 +17,9 @@ inputs:
   name:
    description: 'The username of the bot displayed in the Minecraft server.'
   auto-night-skip:
-   description: 'Make's the bot automatically skip the night in the Minecraft server.'
+   description: "Make's the bot automatically skip the night in the Minecraft server."
    required: false
     
 runs:
  using: 'node16'
  main: 'index.js'
-
-
