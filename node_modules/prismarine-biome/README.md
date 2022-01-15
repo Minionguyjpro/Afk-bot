@@ -33,6 +33,9 @@ Numerical id.
 
 ## History
 
+### 1.1.2
+* Update type definitions
+
 ### 1.1.1
 
 * move standard to dev dep
