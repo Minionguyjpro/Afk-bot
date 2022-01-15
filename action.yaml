@@ -2,10 +2,9 @@ name: 'Minecraft AFKBot'
 description: 'An Minecraft NodeJS bot to stay afk in servers.'
 author: 'Minionguyjpro'
 
-inputs:
- runs:
-  using: 'node12'
-  main: 'index.js'
+runs:
+ using: 'node12'
+ main: 'index.js'
 
 branding:
   icon: 'box'
