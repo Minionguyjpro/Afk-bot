@@ -13,7 +13,11 @@ jobs:
        run: date +%s > report.txt
        
      - name: Update all Node Modules
-       run: npm install
+       run: | 
+          npm install -g npm-check-updates
+          ncu -u
+          npm install
+          
        
      - name: Commit report
        run: |
