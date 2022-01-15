@@ -1,0 +1,24 @@
+name: Update all NodeJS Modules
+
+on:
+  push:
+  pull_request:
+  
+jobs:
+ update_node_modules:
+    runs-on: windows-latest
+    steps:   
+     - uses: actions/checkout@v2
+     - name: Create report file
+       run: date +%s > report.txt
+       
+     - name: Update all Node Modules
+       run: npm install
+       
+     - name: Commit report
+       run: |
+          git config --global user.name 'Minionguyjpro'
+          git config --global user.email 'minionguyjpro@users.noreply.github.com'
+          git add -A
+          git commit -am "Updated all NodeJS Modules"
+          git push      
