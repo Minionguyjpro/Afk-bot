@@ -17,6 +17,7 @@
     "fs": "0.0.1-security",
     "mineflayer": "^3.14.1",
     "mineflayer-blockfinder": "0.0.7",
-    "mineflayer-cmd": "^1.1.3"
+    "mineflayer-cmd": "^1.1.3",
+    "path": "^0.12.7"
   }
 }
