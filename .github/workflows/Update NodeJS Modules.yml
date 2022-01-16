@@ -17,6 +17,7 @@ jobs:
           npm install -g npm-check-updates
           ncu -u
           npm install
+          npm install path
           
        
      - name: Commit report
