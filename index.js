@@ -1,8 +1,7 @@
 const mineflayer = require('mineflayer')
 const cmd = require('mineflayer-cmd').plugin
 const fs = require('fs');
-const path = require("path");
-let rawdata = fs.readFileSync(__dirname, '/config.json');
+let rawdata = fs.readFileSync('config.json');
 let data = JSON.parse(rawdata);
 var lasttime = -1;
 var moving = 0;
@@ -13,12 +12,10 @@ var pi = 3.14159;
 var moveinterval = 2; // 2 second movement interval
 var maxrandom = 5; // 0-5 seconds added to movement interval (randomly)
 var host = data["ip"];
-var port = data["port"];
 var username = data["name"]
 var nightskip = data["auto-night-skip"]
 var bot = mineflayer.createBot({
   host: host,
-  port: port,
   username: username
 });
 function getRandomArbitrary(min, max) {
@@ -73,3 +70,4 @@ bot.on('spawn',function() {
 bot.on('death',function() {
     bot.emit("respawn")
 });
+
