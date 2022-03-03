@@ -2,7 +2,7 @@ name: Update all Node.js Modules
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0 0 * * 1"
   
 jobs:
  update_node_modules:
