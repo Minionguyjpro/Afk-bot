@@ -16,10 +16,13 @@ inputs:
    default: '25565'
   name:
    description: 'The username of the bot displayed in the Minecraft server.'
+   required: false
+   default: 'afkbot'
   auto-night-skip:
    description: "Make's the bot automatically skip the night in the Minecraft server."
    required: false
+   default: 'false'
     
 runs:
  using: 'node16'
- main: './index.js'
+ main: 'dist/index.js'
