@@ -1,6 +1,6 @@
 {
-	"ip":"example.server.ip",
-	"port": "25565",
-	"name": "afkbot1",
-	"auto-night-skip":"false"
+	"ip":"$IP",
+	"port": "$PORT",
+	"name": "$NAME",
+	"auto-night-skip":"$AUTO-NIGHT-SKIP"
 }
