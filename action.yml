@@ -23,8 +23,3 @@ inputs:
 runs:
  using: 'node16'
  main: './index.js'
- args:
-    - ${{ inputs.ip }} #1
-    - ${{ inputs.port }} #2
-    - ${{ inputs.name }} #3
-    - ${{ inputs.auto-night-skip }} #4
