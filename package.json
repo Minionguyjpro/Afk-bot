@@ -15,7 +15,7 @@
   "dependencies": {
     "config": "^3.3.9",
     "fs": "0.0.1-security",
-    "mineflayer": "^4.7.0",
+    "mineflayer": "^4.8.0",
     "mineflayer-blockfinder": "0.0.7",
     "mineflayer-cmd": "^1.1.3",
     "path": "^0.12.7"
