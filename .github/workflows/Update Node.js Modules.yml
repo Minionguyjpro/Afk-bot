@@ -3,6 +3,7 @@ name: Update all Node.js Modules
 on:
   schedule:
     - cron: "0 0 * * 1"
+  workflow_dispatch:
   
 jobs:
  update_node_modules:
