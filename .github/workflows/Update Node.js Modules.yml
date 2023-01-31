@@ -13,7 +13,7 @@ jobs:
      - name: Create report file
        run: date +%s > report.txt
        
-     - name: Update all Node Modules
+     - name: Update all Node.js Modules
        run: | 
           npm install -g npm-check-updates
           ncu -u
