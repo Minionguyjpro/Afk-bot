@@ -3,7 +3,7 @@ const github = require('@actions/github');
 const ip = core.getInput('ip');
 const port = core.getInput('port');
 const name = core.getInput('name');
-const "auto-night-skip" = core.getInput('auto-night-skip');
+const "auto_night_skip" = core.getInput('auto-night-skip');
 const mineflayer = require('mineflayer')
 const cmd = require('mineflayer-cmd').plugin
 const fs = require('fs');
@@ -17,7 +17,7 @@ var moveinterval = 2; // 2 second movement interval
 var maxrandom = 5; // 0-5 seconds added to movement interval (randomly)
 var host = data["${ip}"];
 var username = data["${name}"]
-var nightskip = data["${auto-night-skip}"]
+var nightskip = data["${auto_night_skip}"]
 var bot = mineflayer.createBot({
   host: host,
   username: username
