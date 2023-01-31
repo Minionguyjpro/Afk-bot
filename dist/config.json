@@ -2,5 +2,5 @@
 	"ip":"$IP",
 	"port": "$PORT",
 	"name": "$NAME",
-	"auto_night_skip":"$AUTO-NIGHT-SKIP"
+	"auto-night-skip":"$AUTO-NIGHT-SKIP"
 }
