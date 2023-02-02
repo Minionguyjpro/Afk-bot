@@ -19,6 +19,7 @@ jobs:
           ncu -u
           npm install
           npm install path
+          npm install minecraft-data
           
        
      - name: Commit report
