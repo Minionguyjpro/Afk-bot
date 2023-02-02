@@ -1,11 +1,11 @@
-name: Test
+name: Run a test
 
 on:
   push:
   pull_request:
 
 jobs:
- build:
+ test:
     runs-on: windows-latest
     steps:
      - uses: actions/checkout@v2
