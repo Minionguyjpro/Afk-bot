@@ -1,5 +1,5 @@
 [![Bot Test](https://github.com/Minionguyjpro/Afk-bot/actions/workflows/test.yml/badge.svg)](https://github.com/Minionguyjpro/Afk-bot/actions/workflows/test.yml) [![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/minionguyjpro/afk-bot/master)](https://github.com/Minionguyjpro/Afk-bot/blob/master/package.json)
-# THE GITHUB ACTION IS SHOULD NOW WORK!
+# THE GITHUB ACTION SHOULD NOW WORK!
 # Afk-bot
 An bot to stay AFK on Minecraft servers.
 # All features
