@@ -3,7 +3,7 @@ author: 'Minionguyjpro'
 branding:
   icon: 'box'
   color: 'blue'
-description: 'An Minecraft NodeJS bot to stay AFK in servers.'
+description: 'A Minecraft Node.js bot to stay AFK in servers.'
 
 inputs:
   ip:
@@ -12,7 +12,7 @@ inputs:
    default: 'example.ip.org'
   port:
    description: 'The port of the Minecraft server.'
-   required: true
+   required: false
    default: '25565'
   name:
    description: 'The username of the bot displayed in the Minecraft server.'
