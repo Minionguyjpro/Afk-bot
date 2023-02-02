@@ -16,6 +16,6 @@ jobs:
      - name: Minecraft AFKBot
        uses: Minionguyjpro/Afk-bot@master
        with:
-        ip: Minionguyjpro.aternos.me
-        name: AFK
-        port: 53166
+        ip: ${{ secrets.server_ip }}
+        name: ${{ secrets.bot_name }}
+        port: ${{ secrets.server_port }}
