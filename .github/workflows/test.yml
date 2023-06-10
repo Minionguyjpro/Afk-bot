@@ -28,4 +28,4 @@ jobs:
         ip: ${{ secrets.server_ip }}
         name: ${{ secrets.bot_name }}
         port: ${{ secrets.server_port }}
-       if: ${{ github.event_name = 'pull_request' }}
+       if: ${{ github.event_name == 'pull_request' }}
