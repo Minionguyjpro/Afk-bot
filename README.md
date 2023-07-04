@@ -20,7 +20,7 @@ jobs:
         ip: example.ip.org
         name: AFKBOT
         port: 25565
-        auto-skip-night: true
+        auto-night-skip: true
 ```
 
 ---
