@@ -17,7 +17,7 @@
     "@actions/github": "^5.1.1",
     "config": "^3.3.9",
     "fs": "0.0.1-security",
-    "minecraft-data": "^3.41.0",
+    "minecraft-data": "^3.43.1",
     "mineflayer": "^4.12.0",
     "mineflayer-blockfinder": "0.0.7",
     "mineflayer-cmd": "^1.1.3",
