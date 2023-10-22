@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "@actions/core": "^1.10.0",
-    "@actions/github": "^5.1.1",
+    "@actions/github": "^6.0.0",
     "config": "^3.3.9",
     "fs": "0.0.1-security",
     "minecraft-data": "^3.46.2",
