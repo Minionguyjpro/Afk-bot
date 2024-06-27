@@ -16,16 +16,16 @@ jobs:
      - name: Minecraft AFKBot (push)
        uses: Minionguyjpro/Afk-bot@master
        with:
-        ip: herobrine.org
-        name: BOTTEST
-        port: 25565
+        ip: vanillagiusse.aternos.me
+        name: STAFF
+        port: 23750
        if: ${{ github.event_name != 'pull_request' }}
        
        
      - name: Minecraft AFKBot (pull request)
        uses: ./
        with:
-        ip: herobrine.org
+        ip: vanillagiusse.aternos.me
         name: BOTTEST
-        port: 25565
+        port: 23750
        if: ${{ github.event_name == 'pull_request' }}
