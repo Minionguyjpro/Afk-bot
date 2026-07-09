@@ -1,6 +1,6 @@
 {
-	"ip":"$IP",
-	"port": "$PORT",
-	"name": "$NAME",
+	"ip":"descosmp.enderman.cloud",
+	"port": "34590",
+	"name": "descosmp",
 	"auto-night-skip":"$AUTO-NIGHT-SKIP"
 }
